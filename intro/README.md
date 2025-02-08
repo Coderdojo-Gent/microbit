@@ -2,7 +2,7 @@
 
 ## De Micro:bit Python editor
 
-Een editor is een applicatie waarin je code voor je programmas schrijft. Om 'gewone' Python code te schrijven hebben we bijvoorbeeld VSCode gebruikt. Om Python code voor de Micro:bit te schrijven zullen we micro:bit Python editor gebruiken. Hiervoor hoe je niets te installeren want als werkt gewoon via een website.
+Een editor is een applicatie waarin je code voor je programmas schrijft. Om 'gewone' Python code te schrijven hebben we bijvoorbeeld VSCode gebruikt. Om Python code voor de Micro:bit te schrijven zullen we micro:bit Python editor gebruiken. Hiervoor moet je niets installeren want als werkt gewoon via een website.
 
 Dit is de makkelijkste manier om Python code voor de micro:bit te schrijven en je programma naar de micro:bit te sturen. Jammer genoeg is de editor nog niet in het nederlands vertaald dus je zult je beste engels moeten bovenhalen!
 

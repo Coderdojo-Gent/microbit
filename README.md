@@ -4,7 +4,7 @@ Een verzameling micro:bit opdrachten en links naar leuke opdrachten in andere lo
 
 ## Micro:bit Informatie
 
-![](https://cdn.sanity.io/images/ajwvhvgo/production/4de361b622ac9bf5e8b9c3109a3935dd47b96167-1490x609.png?w=350&q=80&fit=max&auto=format)
+![](https://cdn.sanity.io/images/ajwvhvgo/production/4de361b622ac9bf5e8b9c3109a3935dd47b96167-1490x609.png?w=550&q=80&fit=max&auto=format)
 
 Geen zin om te lezen? Bekijk dan volgend filmpje: https://www.youtube.com/watch?v=0EUzE_Q3W98
 
