@@ -18,9 +18,9 @@ Een micro:bit kan je programmeren in MakeCode of Python. In MakeCode werk je met
 
 ## Opdrachten
 
-| Niveau        | Naam                   | Link                                |
-|---------------|------------------------|-------------------------------------|
-| 1 - Beginner  | Beginnen met Micro:bit | [intro/](intro/README.md)           |
-| 2 - Gevorderd | Simon Says             | [simon_says/](simon_says/README.md) |
-| 2 - Gevorderd | Schatkist              | https://microbit.org/nl/projects/make-it-code-it/proximity-beacon/ |
+| Niveau        | Naam                   | Link                                      |
+|---------------|------------------------|-------------------------------------------|
+| 1 - Beginner  | Beginnen met Micro:bit | [intro/](intro/README.md)                 |
+| 2 - Gevorderd | Simon Says             | [simon_says/](simon_says/README.md)       |
+| 2 - Gevorderd | Zoek de schat          | [zoek_de_schat/](zoek_de_schat/README.md) |
 
