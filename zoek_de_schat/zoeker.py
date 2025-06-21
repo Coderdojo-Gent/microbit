@@ -1,6 +1,5 @@
-from microbit import sleep, set_volume
+from microbit import display, sleep
 import radio
-import music
 
 
 def map(waarde, in_min, in_max, uit_min, uit_max):
@@ -11,16 +10,32 @@ def map(waarde, in_min, in_max, uit_min, uit_max):
     return uit_min + (waarde_geschaald * uit_verschil)
 
 
+def toon_leds(aantal):
+    rij = 0
+    kolom = 0
+    for _ in range(aantal):
+        display.set_pixel(rij, kolom, 9)
+        rij += 1
+        if rij > 4:
+            rij = 0
+            kolom += 1
+
+
 radio.config(group=1, power=5)
 radio.on()
-set_volume(0)
+
+for aantal in range(26):
+    toon_leds(aantal)
+    sleep(25)
+sleep(1000)
+display.clear()
 
 while True:
+    display.clear()
     radio.send("hallo")
     message = radio.receive_full()
     if message:
         signaal_sterkte = message[1]
-        volume = map(signaal_sterkte, -255, 0, 0, 30)
-        set_volume(round(volume))
-        music.play(["e"])
+        aantal_leds = map(signaal_sterkte, -120, -20, 0, 25)
+        toon_leds(aantal_leds)
     sleep(200)
